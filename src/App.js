@@ -48,7 +48,7 @@ function App() {
 			{todos.length > 0 ? (
 				<Todos todos={todos} onDelete={deleteTask} />
 			) : (
-				'No more task left'
+				'Please add your todo'
 			)}
 		</div>
 	);
